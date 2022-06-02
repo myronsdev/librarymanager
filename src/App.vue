@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       modalIsOpen: false,
-      detailsModalIsOpen: true,
+      detailsModalIsOpen: false,
       activeBook: null,
       managerMode: true
     };
