@@ -52,9 +52,7 @@ const bookStore = createStore({
       state.books = state.books.filter(book => book.id !== id);
     },
     toggleCheckout(state, id) {
-      console.log('id', id);
      const book = state.books.find(book => book.id === id);
-     console.log('book', book);
      book.available = !book.available;
     }
   }
