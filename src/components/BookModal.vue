@@ -27,6 +27,7 @@ export default {
         year: "",
         genre: "",
         id: uuid(),
+        available: true
       },
     };
   },
